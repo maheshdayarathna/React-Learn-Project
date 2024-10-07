@@ -7,8 +7,8 @@ export default function Home() {
     <div>
        <NavBar button ="Home"/>
        <NavBar button ="Cart"/>
-       <NavBar button ="Items"/>
-       <Link to={"/Items"}>GO</Link>
+     
+       <Link to={"/Items"}>Items </Link>
     </div>
   )
 }
