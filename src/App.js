@@ -4,6 +4,7 @@ import Items from './Pages/Items';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
+
   return (
     <Router>
       <div>
@@ -11,11 +12,11 @@ function App() {
           
           <Route path="/" element={<Home />} />
           <Route path="/items" element={<Items />} />
-          {/* Example:
-          <Route path="/items" element={<Items />} /> */}
+          
         </Routes>
       </div>
     </Router>
+
   );
 }
 
